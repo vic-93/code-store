@@ -47,3 +47,15 @@ else
 fi
 #输出备份过程结束的提醒消息
 echo “Backup Process Done”
+
+
+#note :
+#       首先你要让文件有能够执行的权限，比如你的文件是a.sh那么你可以
+#       chmod +x a.sh
+#       然后运行文件就可以了
+#       ./a.sh
+
+#       首先执行  crontab -e
+#       添加任务   1 * * * * /tmp/auto_log.sh >/dev/null  2>&1
+
+
